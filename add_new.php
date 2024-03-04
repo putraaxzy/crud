@@ -38,13 +38,13 @@ if(isset($_POST['submit'])) {
 <body>
     <nav class="navbar navbar-light justify-content-center fs-3 mb-5"
     style="background-color: #00ff5573;">
-        PHP COMPLETE CRUD APP
+        CRUD NGUAWUR REK
     </nav>
 
     <div class="container">
         <div class="text-center mb-4">
-            <h3>Add New User</h3>
-            <p class="text-muted">Complete the form below to add a new user</p>
+            <h3>Tambahkan User Baru</h3>
+            <p class="text-muted">Selesaikan form di bawah untuk menambahkan user</p>
         </div>
 
         <div class="container d-flex justify-content-center">
@@ -68,10 +68,14 @@ if(isset($_POST['submit'])) {
                 </div>
                     <div class="form-group mb-3">
                         <label>Gender:</label>
-                        <input type="radio" class="form-check-input" name="gender" id="male" value="male">
+                        <input type="radio" class="form-check-input" name="gender" id="bakwan" value="bakwan">
                         <label for="male" class="form-input-label">Bakwan</label>
-                        <input type="radio" class="form-check-input" name="gender" id="female" value="female">
+                        <input type="radio" class="form-check-input" name="gender" id="seblak" value="seblak">
                         <label for="female" class="form-input-label">Seblak</label>
+                        <input type="radio" class="form-check-input" name="gender" id="mie gacoan" value="mie gacoan">
+                        <label for="female" class="form-input-label">Mie Gacoan</label> 
+                        <input type="radio" class="form-check-input" name="gender" id="nasi padang" value="nasi padang">
+                        <label for="female" class="form-input-label">Nasi padang</label>
                     </div>
                     <div>
                         <button type="submit" class="btn btn-success" name="submit">Save</button>

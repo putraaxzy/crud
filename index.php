@@ -16,12 +16,12 @@ include "db_conn.php";
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <title>PHP CRUD Application</title>
+  <title>CRUD NGUAWUR REK</title>
 </head>
 
 <body>
   <nav class="navbar navbar-light justify-content-center fs-3 mb-5" style="background-color: #00ff5573;">
-    PHP Complete CRUD Application
+    CRUD NGUAWUR REK
   </nav>
 
   <div class="container">
@@ -34,7 +34,7 @@ include "db_conn.php";
     </div>';
     }
     ?>
-    <a href="add-new.php" class="btn btn-dark mb-3">Add New</a>
+    <a href="add_new.php" class="btn btn-dark mb-3">Add New</a>
 
     <table class="table table-hover text-center">
       <thead class="table-dark">
