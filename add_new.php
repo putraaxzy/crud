@@ -43,20 +43,20 @@ if(isset($_POST['submit'])) {
 
     <div class="container">
         <div class="text-center mb-4">
-            <h3>Tambahkan User Baru</h3>
-            <p class="text-muted">Selesaikan form di bawah untuk menambahkan user</p>
+            <h3>Nambahke Wong Anyar</h3>
+            <p class="text-muted">Rampungke form neng ngisor iki cok</p>
         </div>
 
         <div class="container d-flex justify-content-center">
             <form action="" method="post" style="width:50vw; min-width:300px;">
             <div class="row mb-3">
                 <div class="col">
-                    <label class="form-label">First Name:</label>
+                    <label class="form-label">Jeneng Awal:</label>
                     <input type="text" class="form-control" name="first_name" 
                     placeholder="Ahmad">
                 </div>
                  <div class="col">
-                    <label class="form-label">Last Name:</label>
+                    <label class="form-label">Jeneng Keri:</label>
                     <input type="text" class="form-control" name="last_name" 
                     placeholder="Hidayat">
                 </div>
@@ -67,7 +67,7 @@ if(isset($_POST['submit'])) {
                     placeholder="ahmadhidayat77@gmail.com">
                 </div>
                     <div class="form-group mb-3">
-                        <label>Gender:</label>
+                        <label>Kelamin:</label>
                         <input type="radio" class="form-check-input" name="gender" id="bakwan" value="bakwan">
                         <label for="male" class="form-input-label">Bakwan</label>
                         <input type="radio" class="form-check-input" name="gender" id="seblak" value="seblak">
@@ -78,8 +78,8 @@ if(isset($_POST['submit'])) {
                         <label for="female" class="form-input-label">Nasi padang</label>
                     </div>
                     <div>
-                        <button type="submit" class="btn btn-success" name="submit">Save</button>
-                        <a href="index.php" class="btn btn-danger">Cancel</a>
+                        <button type="submit" class="btn btn-success" name="submit">Save Cok</button>
+                        <a href="index.php" class="btn btn-danger">Gak Sido</a>
                     </div>
             </form>
         </div>

@@ -34,17 +34,17 @@ include "db_conn.php";
     </div>';
     }
     ?>
-    <a href="add_new.php" class="btn btn-dark mb-3">Add New</a>
+    <a href="add_new.php" class="btn btn-dark mb-3">Nambah Uwong</a>
 
     <table class="table table-hover text-center">
       <thead class="table-dark">
         <tr>
           <th scope="col">ID</th>
-          <th scope="col">First Name</th>
-          <th scope="col">Last Name</th>
+          <th scope="col">Jeneng Awal</th>
+          <th scope="col">Jeneng Keri</th>
           <th scope="col">Email</th>
-          <th scope="col">Gender</th>
-          <th scope="col">Action</th>
+          <th scope="col">Kelamin</th>
+          <th scope="col">Polah</th>
         </tr>
       </thead>
       <tbody>
